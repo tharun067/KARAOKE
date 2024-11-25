@@ -35,11 +35,11 @@ def database():
         messagebox.showinfo('Success','Registration is success')
         clear()
         root.destroy()
-        import LOGIN
+        import CODE.main as main
 
 def user_login():
     root.destroy()
-    import LOGIN
+    import CODE.main as main
 
 f2=Frame(root,height=450,width=400,bg='lightblue')
 f2.place(x=950,y=180)
